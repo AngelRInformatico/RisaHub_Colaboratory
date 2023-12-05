@@ -1,0 +1,151 @@
+/*-----Configuraciones generales-----*/
+
+* {
+    color: white;
+}
+
+body { /*Ajustes*/
+    margin: 0 0;
+    padding: 0 0;
+    /*Colores*/
+    background-color: black;
+} main {
+    margin-left: 5%;
+    margin-right: 5%;
+} hr {
+    margin: auto 5%;
+}
+
+/*-----Estilos de la barra de navegacion-----*/
+
+header { /*Ajustes*/
+    height: 150px;
+    margin-top: -30px;
+    background-color: rgb(255, 125, 0);
+} nav {
+    position: absolute;
+    width: 100%;
+    top: 20px;
+}
+
+/*Botones de navegacion*/
+
+nav ul { /*Ajustes*/
+    display: flex;
+    margin-left: 30%;
+    margin-top: 30px;
+} nav ul li {
+    list-style-type: none;
+    margin-left: 30px;
+} nav ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+    margin-top: -20px;
+}
+
+/*-----Estilos del video random-----*/
+
+/*Contenedores y ventana de video*/
+
+.random-video { /*Ajustes*/
+    margin-top: 50px;
+} .random-video .random-video-flex {
+    display: flex;
+    width: 100%;
+} .random-video-container {
+    background-color: rgb(30, 30, 30);
+    width: 60%;
+    height: 520px;
+} .random-video-info-container {
+    border-radius: 10px 40px 10px 40px;
+    background-color: rgb(30, 30, 30);
+    width: 38%;
+    margin-left: 2%;
+} .random-video-info-container {
+    display: flex;
+} .random-video-info-container .buttons {
+    width: 100px;
+    background-color: rgb(255, 125, 0);
+    border-radius: 0 40px 10px 0;
+    display: inline;
+} .random-video-info-container .details {
+    width: 100%
+}
+
+/*-----Estilos del apartado de informacion-----*/
+
+.random-video .title { /*Ajustes*/
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+} .random-video .random-video-info-container p {
+    margin-left: 30px;
+    padding-right: 25px;
+}
+
+/*Estilos de los botones*/
+
+.random-video-info-container .buttons .logo { /*Espaciado entre el logo y los botones*/
+    margin-bottom: 200%;
+}
+
+.random-video-info-container .buttons .logo,
+.random-video-info-container .buttons .share,
+.random-video-info-container .buttons .coment,
+.random-video-info-container .buttons .like { /*Ajustes*/
+    width: 70px;
+    height: 70px;
+    background-color: rgb(30, 30, 30);
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+/*-----Seccion de videos destacados-----*/
+
+.featured-videos { /*Ajustes*/
+    margin-top: 80px;
+} .featured-videos .featured-videos-flex {
+    display: flex;
+} .featured-videos-flex .featured-video-card {
+    width: 25%;
+    margin-right: 5%;
+    height: 400px;
+    display: inline;
+} .featured-video-card .featured-video-container {
+    height: 200px;
+    background-color: rgb(30, 30, 30);
+}.featured-video-card .featured-video-title-chanel {
+    display: flex;
+} .featured-video-card .featured-video-title-chanel p {
+    width: 60%;
+} .featured-video-title-chanel .chanel-img {
+    background-color: rgb(30, 30, 30);
+    width: 50px;
+    height: 50px;
+    margin-left: 25%;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+
+/*-----Seccion de canales destacados-----*/
+
+.featured-chanels { /*Ajustes*/
+    margin-top: 80px;
+} .featured-chanels .featured-chanels-flex {
+    display: flex;
+    margin-top: 50px;
+} .featured-chanels-flex .featured-chanels-card {
+    width: 7.5%;
+    margin-right: 5%;
+    height: 600px;
+    display: inline;
+    text-align: center;
+} .featured-chanels-card .featured-chanels-img {
+    width: 125px;
+    height: 125px;
+    border-radius: 100%;
+    background-color: rgb(30, 30, 30);
+} .featured-chanels-card p {
+    margin-left: 10px;
+}
