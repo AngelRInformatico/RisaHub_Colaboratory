@@ -1,0 +1,87 @@
+* {
+    color: white;
+}
+
+body { /*Ajustes*/
+    margin: 0 0;
+    padding: 0 0;
+    /*Colores*/
+    background-color: black;
+} main {
+    margin-left: 5%;
+    margin-right: 5%;
+} hr {
+    margin: auto 5%;
+}
+
+/*-----Estilos del encabezado---*/
+
+header { /*Ajustes*/
+    width: 100%;
+    height: 150px;
+    background-color: rgb(255, 125, 0);
+    display: flex;
+}
+
+/*Botones y navegacion*/
+
+header .back-button { /*Ajustes*/
+    background-color: rgb(30, 30, 30);
+    width: 75px;
+    height: 75px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 15px;
+} .search-bar-container {
+    margin-left: 10%;
+    width: 45%;
+    height: 40%;
+    margin-top: 35px;
+    display: flex;
+} .search-bar-container .lupa-button {
+    width: 10%;
+    border-radius: 40px 0 0 40px;
+    background-color: black;
+} .search-bar-container input{
+    width: 90%;
+    border-radius: 0 40px 40px 0;
+    text-align: center;
+} header .buttons-container {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    display: flex;
+} header .buttons-container .logo {
+    height: 75px;
+    width: 75px;
+    margin-left: 20px;
+    background-color: rgb(29, 29, 29);
+} header .buttons-container button {
+    width: 75px;
+    height: 75px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(30, 30, 30);
+}
+
+/*-----Estilos del catalogo-----*/
+
+/*Fila 1*/
+
+.general-title-styles { /*Ajustes*/
+    margin-left: 30px;
+    font-size: 20px;
+} .general-card-styles {
+    width: 25%;
+    margin-right: 3%;
+    height: 300px;
+    text-align: center;
+    display: inline;
+} .general-video-container {
+    height: 200px;
+    background-color: rgb(30, 30, 30);
+    width: 100%;
+} .general-card-container {
+    display: flex;
+    width: 100%;
+} 
