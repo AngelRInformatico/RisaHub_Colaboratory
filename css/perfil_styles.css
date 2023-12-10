@@ -1,0 +1,97 @@
+/*-----Configuraciones generales---*/
+
+* {
+    color: white;
+}
+
+body { /*Ajustes*/
+    margin: 0 0;
+    padding: 0 0;
+    /*Colores*/
+    background-color: black;
+} main {
+    margin-left: 5%;
+    margin-right: 5%;
+} hr {
+    margin: auto 5%;
+} button {
+    background-color: rgb(30, 30, 30);
+    width: 75px;
+    height: 75px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+/*-----Informacion principal de la cuenta-----*/
+
+.perfil_container { /*Ajustes*/
+    background-color: rgb(255, 125, 0);
+    height: 400px;
+    margin-top: 30px;
+    border-radius: 20px;
+    display: flex;
+
+} .perfil_container .perfil_info_container {
+    height: 72.5%;
+    width: 700px;
+    background-color: rgb(30, 30, 30);
+    margin-left: 5%;
+    margin-top: 50px;
+    display: flex;
+    border-radius: 40px;
+    padding-top: 20px;
+} .perfil_info_container .img_container {
+    margin-top: 5%;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10%;
+} .perfil_info_container .info_container {
+    background-color: rgba(225, 225, 225, 0);
+    width: 325px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*-----Informacion de estadisticas-----*/
+
+.people_statistic_info { /*Ajustes*/
+    display: flex;
+    width: 500px;
+    height: 60px;
+    margin-top: 50px;
+    margin-left: 2%;
+    padding-top: 10px;
+} .people_statistic_info div {
+    width: 29%;
+    background-color: rgb(29, 29, 29);
+    height: 35px;
+    margin-left: 2%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/*-----Contenedor de videos publocados-----*/
+
+.perfil_container .principal_video_container { /*Ajustes*/
+    display: flex;
+} .perfil_container .principal_video_container .principal_video {
+    background-color: rgb(248, 248, 248);
+    height: 220px;
+    width: 70%;
+    margin-left: 4%;
+} .perfil_container .principal_video_container ul li {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(30, 30, 30);
+    margin-bottom: 5px;
+    margin-left: 5px;
+    list-style-type: none;
+} .perfil_container .principal_video_container ul {
+    margin-top: 0.5px;
+}
