@@ -1,0 +1,19 @@
+section {
+    display: flex;
+}
+
+body {
+    text-align: center;
+}
+
+div {
+    color: black;
+    background-color: rgb(255, 125, 0);
+    width: 30%;
+    height: 500px;
+    margin-left: 2.5%;
+    text-align: justify;
+    padding: 30px;
+} div h2 {
+    text-align: center;
+}

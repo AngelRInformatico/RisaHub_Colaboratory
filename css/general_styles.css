@@ -1,0 +1,17 @@
+/*-----Configuraciones generales-----*/
+
+* {
+    color: white;
+}
+
+body { /*Ajustes*/
+    margin: 0 0;
+    padding: 0 0;
+    /*Colores*/
+    background-color: black;
+} main {
+    margin-left: 5%;
+    margin-right: 5%;
+} hr {
+    margin: auto 5%;
+}
