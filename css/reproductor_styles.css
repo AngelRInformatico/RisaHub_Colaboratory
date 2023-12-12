@@ -1,0 +1,51 @@
+/*-----Estilos del reproductor-----*/
+
+main {
+    display: flex;
+}
+
+.video-reproductor-container {
+    margin-top: 50px;
+    width: 60%;
+    height: 700px;
+    background-color: rgb(255, 125, 0);
+    border-radius: 40px 0 0 40px;
+    padding: 3% 3% 0 3%;
+} .video-reproductor-container .reproductor-container {
+    width: 80%;
+    height: 420px;
+    background-color: rgb(31, 31, 31);
+} .video-reproductor-container .buttons ul li {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(30, 30, 30);
+    margin-bottom: 5px;
+    margin-left: 5px;
+    list-style-type: none;
+} .reproductor {
+    display: flex;
+}
+
+/*-----Lista de videos-----*/
+
+.general-video-list {
+    width: 30%;
+    height: 740px;
+    margin-top: 50px;
+    border: 3px solid rgb(255, 125, 0);
+} .general-video-list .general-video-card {
+    width: 100%;
+    background-color: rgb(255, 125, 0);
+    border-bottom: 2px solid black; 
+    border-left: 2px solid black;
+    height: 130px;
+    padding: 2% 0 2% 2%;
+    display: flex;
+} .card-video-container {
+    width: 55%;
+    background-color: rgb(30, 30, 30);
+    height: 100%;
+    margin-right: 10px;
+} .general-video-card .card-info-container p {
+    margin-top: -20px;
+}
